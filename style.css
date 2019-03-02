@@ -1,0 +1,377 @@
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css */
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+footer,
+header,
+section {
+    display: block;
+}
+
+a {
+    background-color: transparent;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+img {
+    border: 0;
+}
+
+hr {
+    height: 0;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+@media print {
+    *,
+    :after,
+    :before {
+        color: #000!important;
+        text-shadow: none!important;
+        background: 0 0!important;
+        -webkit-box-shadow: none!important;
+        box-shadow: none!important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    img {
+        page-break-inside: avoid;
+    }
+    img {
+        max-width: 100%!important;
+    }
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus,
+a:hover {
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+h1,
+h3,
+h4,
+h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h1,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4,
+h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 12px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container:after,
+.container:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " ";
+}
+
+.container:after,
+.row:after {
+    clear: both;
+}
+
+
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css */
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-envelope-o:before {
+    content: "\f003";
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.fa-github:before {
+    content: "\f09b";
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+}
+
+.fa-stack-overflow:before {
+    content: "\f16c";
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+}
+
+.fa-facebook-official:before {
+    content: "\f230";
+}
+
+.fa-google-plus-official:before {
+    content: "\f2b3";
+}
+
+
+/*! CSS Used from: https://shenoybr.github.io/hugo-goa-demo/css/main.css */
+
+a,
+a:hover,
+a:visited,
+a:link {
+    text-decoration: none;
+    color: #526d7a;
+}
+
+body {
+    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: auto;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background-color: #fcfcfc;
+}
+
+html {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+
+.author {
+    color: #444;
+}
+
+.container {
+    overflow: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #bbb;
+}
+
+.footer {
+    margin-top: 10px;
+    color: #bbb;
+}
+
+.header {
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.headshot {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 200;
+    color: #777;
+}
+
+h3.intro {
+    margin-top: 0px;
+}
+
+.main-menu {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #966!important;
+}
+
+.powered {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.social {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.social,
+.social a {
+    color: #526d7a;
+}
+
+@media (max-width: 991px) {
+    .header {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}
