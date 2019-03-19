@@ -20,6 +20,8 @@ section {
 
 a {
     background-color: transparent;
+    padding: 0px 10px;
+    word-wrap: normal;
 }
 
 a:active,
